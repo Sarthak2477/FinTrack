@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 // OR enable for specific origin
-app.use(cors({ origin: "https://fintrack-bga73lmr3-sarthaks-projects-69798058.vercel.app/" }));
+app.use(cors({ origin: "https://fintrack-bga73lmr3-sarthaks-projects-69798058.vercel.app" }));
 
 app.use(express.json());
 
