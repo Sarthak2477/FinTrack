@@ -58,18 +58,6 @@ npm start
 ```
 The frontend will be available at `http://localhost:3000`.
 
-## Deployment
-### Backend (Render)
-1. Push your backend to GitHub.
-2. Deploy the backend on [Render](https://render.com/) with the following settings:
-   - **Build Command:** `npm install`
-   - **Start Command:** `node server.js`
-   - Set up environment variables in Render.
-
-### Frontend (Vercel)
-1. Push your frontend to GitHub.
-2. Deploy the frontend on [Vercel](https://vercel.com/).
-
 ## License
 This project is licensed under the MIT License.
 
