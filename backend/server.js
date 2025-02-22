@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 // OR enable for specific origin
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://fintrack-pm3vwew0x-sarthaks-projects-69798058.vercel.app/" }));
 
 app.use(express.json());
 
